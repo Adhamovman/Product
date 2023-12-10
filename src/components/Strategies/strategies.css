@@ -1,0 +1,21 @@
+#strategies {
+  padding: 50px 0;
+}
+.strategies-row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 24px
+}
+.card-icon {
+  width: 100%;
+}
+.card {
+  border: 1px solid #DEDEDE;
+  border-radius: 12px;
+}
+.card:hover h3{
+    color: var(--primarycolor);
+}
+.card-body {
+  padding: 8px 8px 18px;
+}

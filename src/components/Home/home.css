@@ -1,0 +1,30 @@
+.home,
+.play {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.home {
+  padding-top: 12px;
+}
+.home-right,
+.home-left {
+  flex: 50%;
+}
+.links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+a {
+  color: var(--primarycolor);
+}
+.home-right img {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .home {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,50 @@
+#prices {
+  padding-bottom: 100px;
+}
+.price-row {
+  display: flex;
+  justify-content: space-between;
+}
+.dark .price-card {
+  background-color: rgba(3, 145, 128, 0.349);
+}
+.price-card {
+  text-align: center;
+  padding: 20px 36px;
+  box-shadow: 0px 2px 8px 0px #00000040;
+  border-radius: 8px;
+  transition: var(--main-tr);
+}
+.card-desc {
+  margin: 16px 0 24px 0;
+}
+.card-func {
+  margin: 4px 0;
+}
+.price-card:hover {
+  background-color: var(--primarycolor);
+  color: var(--white);
+}
+.price-card:hover .text-price {
+  color: var(--white);
+}
+.cost {
+  display: flex;
+  justify-content: space-evenly;
+}
+.num {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0.20000000298023224px;
+}
+.text-price {
+  color: var(--primarycolor);
+}
+.price-card:hover button {
+  background-color: var(--white);
+  color: var(--primarycolor);
+}
+.price-card button {
+  margin-top: 24px;
+}

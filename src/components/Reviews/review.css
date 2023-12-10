@@ -1,0 +1,33 @@
+#reviews {
+  padding-bottom: 100px;
+}
+.reviews-row {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.review-card {
+  border-radius: 5px;
+  padding: 20px;
+  border: 1px solid #dedede;
+}
+.user {
+  display: flex;
+  gap: 16px;
+}
+.u-left img {
+  width: 50px;
+}
+.username {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  color: var(--primarycolor);
+}
+.job {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+}
